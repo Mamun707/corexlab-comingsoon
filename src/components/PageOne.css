@@ -12,7 +12,7 @@
   grid-template-columns: 400px 1fr;
 }
 .page1-intro {
-  padding-top: 140px;
+  padding-top: 150px;
 }
 .page1-image {
   padding-top: 50px;
@@ -31,12 +31,15 @@
 
   color: #000000;
 }
+.page1-decription {
+  padding-bottom: 25px;
+}
 .page1-decription p {
   font-family: "Lato", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 35px;
-  line-height: 80px;
+  line-height: 60px;
 
   color: #000000;
 }
@@ -97,11 +100,25 @@
 @media screen and (max-width: 940px) {
   .page1-details {
     display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
     padding-left: 20px;
     padding-right: 20px;
+    padding-bottom: 40px;
   }
   .page1-intro {
     padding-top: 20px;
+  }
+  .page1-decription p {
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 50px;
+
+    color: #000000;
+  }
+  .page1-intro {
+    padding-top: 0;
+  }
+  .page1-decription {
+    padding-bottom: 10px;
   }
 }
