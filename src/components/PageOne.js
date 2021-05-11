@@ -46,6 +46,37 @@ function PageOne() {
                 </div>
               </form>
             </div>
+            <div className="ft-contact">
+              <div className="contact-details">
+                <div className="contact-image">
+                  <img src="footer_map.svg" alt="phone" />
+                </div>
+                <div className="contact-info">
+                  <p>Address</p>
+
+                  <p> 330/4/7, East Nakhalpara, Tejgaon, Dhaka-1215</p>
+                </div>
+              </div>
+              <div className="contact-details">
+                <div className="contact-image">
+                  <img src="footer_email.svg" alt="phone" />
+                </div>
+                <div className="contact-info">
+                  <p>Email</p>
+                  <p>reach@corexlab.com</p>
+                </div>
+              </div>
+
+              <div className="contact-details">
+                <div className="contact-image">
+                  <img src="footer_phone.svg" alt="phone" />
+                </div>
+                <div className="contact-info">
+                  <p>Phone</p>
+                  <p>01307524982</p>
+                </div>
+              </div>
+            </div>
           </div>
           <div className="page1-image">
             <img src="page1_image.png" />

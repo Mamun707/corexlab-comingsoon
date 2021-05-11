@@ -6,9 +6,17 @@
 .logo img {
   height: 40px;
 }
+.navbar-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
 @media screen and (max-width: 940px) {
   .navbar-container {
     padding-left: 20px;
     padding-right: 20px;
+  }
+  .nav-social {
+    display: none;
   }
 }

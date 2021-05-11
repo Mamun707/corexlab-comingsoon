@@ -1,6 +1,4 @@
 import React from "react";
-import { BiPhoneCall, BiMap } from "react-icons/bi";
-import { HiOutlineMail } from "react-icons/hi";
 
 import "../components/Footer.css";
 
@@ -9,41 +7,6 @@ function Footer() {
     <div className="footer">
       <div className="container">
         <div className="footer-details">
-          <div className="ft-contact">
-            <div className="ft-contact-title">
-              <p>Contact Us</p>
-            </div>
-            <div className="contact-details">
-              <div className="contact-image">
-                <i>
-                  <BiPhoneCall />
-                </i>
-              </div>
-              <div className="contact-info">
-                <p>01307524982</p>
-              </div>
-            </div>
-            <div className="contact-details">
-              <div className="contact-image">
-                <i>
-                  <HiOutlineMail />
-                </i>
-              </div>
-              <div className="contact-info">
-                <p>reach@corexlab.com</p>
-              </div>
-            </div>
-            <div className="contact-details">
-              <div className="contact-image">
-                <i>
-                  <BiMap />
-                </i>
-              </div>
-              <div className="contact-info">
-                <p>330/4/7, East Nakhalpara, Tejgaon, Dhaka-1215 </p>
-              </div>
-            </div>
-          </div>
           <div className="ft-social">
             <ul className="social-icons">
               <li>
