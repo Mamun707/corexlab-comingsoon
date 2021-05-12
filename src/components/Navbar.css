@@ -19,4 +19,7 @@
   .nav-social {
     display: none;
   }
+  .logo img {
+    padding-top: 20px;
+  }
 }
