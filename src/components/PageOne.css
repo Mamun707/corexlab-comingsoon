@@ -143,25 +143,32 @@
     padding-bottom: 10px;
   }
   .contact-details {
-    padding-top: 15px;
+    /* padding-top: 15px;
     display: flex;
     flex-direction: column;
-    text-align: center;
+    text-align: center; */
+    display: grid;
+    grid-template-columns: 100px 1fr;
+  }
+  .contact-info {
+    padding-top: 25px;
   }
   .contact-info p {
-    font-style: normal;
+    /* font-style: normal;
     font-weight: 500;
     font-size: 15px;
     line-height: 22px;
-    text-align: center;
+    text-align: center; */
+    line-height: 20px;
+    padding-top: 0;
   }
   .contact-image img {
-    /* width: 100px; */
-    width: 25%;
+    /* width: 80px; */
+    width: 100%;
   }
   .ft-contact {
     border-bottom: 0.529412px solid rgba(0, 0, 0, 0.15);
-    padding-bottom: 10px;
-    padding-top: 0;
+    /* padding-bottom: 10px; */
+    padding-top: 10px;
   }
 }
